@@ -41,12 +41,25 @@
   color: #888;
 }
 
+/* schtick setting */
 .scrollbar-thumb{
   background-color: rgb(165, 114, 192) !important;
   width: 10px !important;
-  
+
 }
 
+@media screen and (max-width: 600px) {
+  .scrollbar-thumb {
+    width: 0 !important;
+  }
+}
+
+/* background settings */
 .scrollbar-track-y{
   background-color: transparent !important;
+}
+
+
+img{
+  width: 100%;
 }
